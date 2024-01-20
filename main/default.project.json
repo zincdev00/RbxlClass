@@ -1,0 +1,9 @@
+{
+	"name": "Class",
+	"globIgnorePaths": [
+		"*.spec.lua"
+	],
+	"tree": {
+		"$path": "src"
+	}
+}
