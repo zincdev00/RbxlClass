@@ -10,6 +10,10 @@ function Class:create(object, parent)
 	return object
 end
 
+function Class:new(object)
+	return self:create(object)
+end
+
 function Class:meta()
 	return getmetatable(self)
 end
